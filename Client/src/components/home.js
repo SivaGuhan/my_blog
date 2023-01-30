@@ -93,14 +93,14 @@ const Home = () => {
       setOpen(false);
   }
   return (
-    <div className="mb-[5%]">
-      <div className="text-gray-700 text-4xl font-bold font-['monospace'] mb-4 mt-4 ml-[20%]">
+    <div className="pb-[5%] bg-sky-100">
+      <div className="text-gray-700 text-4xl font-bold font-['monospace'] mb-4 pt-4 ml-[20%]">
         Your Articles!!!!
       </div>
       {articles.map(({ id, title, content }) => (
         <div
           key={id}
-          className="w-[60%] bg-white shadow-xl rounded px-8 pt-6 pb-8 mb-4 relative left-[20%]"
+          className="w-[60%] bg-white shadow-2xl hover:scale-105 shadow-blue-900 rounded-3xl border-2 border-black px-8 pt-6 pb-8 mb-4 relative left-[20%]"
         >
           <div className="flex">
             <div className="text-gray-700 text-4xl font-bold font-['Calibri'] mb-4">

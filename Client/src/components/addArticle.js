@@ -27,8 +27,8 @@ const AddArticle = () => {
   };
   return (
     <div className="flex justify-center">
-      <div className="w-[50%] mt-[10%]">
-        <div className="text-gray-700 text-4xl font-bold font-['monospace']">
+      <div className="w-[50%] mt-[7%] rounded-3xl border-2 border-black hover:scale-105 hover:shadow-xl hover:shadow-cyan-500">
+        <div className="text-gray-700 text-4xl font-bold font-['monospace'] pl-2 pt-2">
           Add Article
         </div>
         <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
